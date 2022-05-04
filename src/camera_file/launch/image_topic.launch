@@ -1,0 +1,8 @@
+<launch>
+    <node name="img_puber" pkg="camera_file" type="camera_file_pub.py"  output="screen" respawn="true"></node>
+    <node name="img_listener" pkg="camera_file" type="camera_file_listener.py"  output="screen" respawn="true"></node>
+    <!--
+        <node name="img_puber" pkg="camera_file" type="camera_file_node"  output="screen" respawn="true"></node>
+        <node name="img_listener" pkg="camera_file" type="camera_file_listener"  output="screen" respawn="true"></node>
+    -->
+</launch>
