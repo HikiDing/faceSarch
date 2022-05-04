@@ -1,5 +1,5 @@
 <launch>
     <node name="img_puber" pkg="camera_file" type="camera_file_node"  output="screen" respawn="true"></node>
     <node name="face_serach" pkg="face_serach" type="faceSearch.py" output="screen" respawn="true"></node>
-    <node name="uart_process_2" pkg="uart_process_2" type="rm2020_uart_2stm32" output="screen" respawn="true"></node>
+    <!--<node name="uart_process_2" pkg="uart_process_2" type="rm2020_uart_2stm32" output="screen" respawn="true"></node>-->
 </launch>

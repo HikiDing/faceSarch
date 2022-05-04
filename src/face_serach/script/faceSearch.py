@@ -86,6 +86,7 @@ class SubscribeAndPublish:
                                 msg = uart_send()
                                 msg.curYaw =  landmark.x - 0.5
                                 msg.curPitch = landmark.y - 0.5
+                                msg.curDistance = landmark.z
             
             # Flip the image horizontally for a selfie-view display.
             
